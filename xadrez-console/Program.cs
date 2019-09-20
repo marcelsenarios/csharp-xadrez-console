@@ -44,7 +44,7 @@ namespace xadrez_console
                         Console.WriteLine("Aperte ENTER para tentar novamente...");
                         Console.ReadLine();
                     }
-                }
+                }Tela.imprimirPartida(partida);
             }
             catch (TabuleiroException e)
             {
